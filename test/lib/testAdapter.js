@@ -308,6 +308,24 @@ function testAdapter(options) {
          });
          });*/
 
+        it(options.name + ' ' + context.adapterShortName + ' adapter: stopping adapter', function (done) {
+            this.timeout(10000);
+            if (context && context.adapter) {
+                const realProcess = process;
+                const exitMock = function(exitCode) {
+                    console.log('process.exit was called with ' + exitCode);
+                    if (realProcess) {
+                        global.process = realProcess;
+                        realProcess = null;
+                    }
+                    done();
+                };
+                global.process = Object.assign({}, realProcess, {exit: exitMock} );
+                context.adapter.stop();
+            }
+            done();
+        });
+
         after(options.name + ' ' + context.adapterShortName + ' adapter: Stop js-controller', function (done) {
             this.timeout(10000);
 
