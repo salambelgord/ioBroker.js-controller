@@ -43,9 +43,9 @@
     "meta": "https://raw.githubusercontent.com/mcdhrts/ioBroker.asuswrt/master/io-package.json",
     "icon": "https://raw.githubusercontent.com/mcdhrts/ioBroker.asuswrt/master/admin/asuswrt.png",
     "type": "hardware",
-    "version": "0.3.1",
+    "version": "1.0.0",
     "published": "2018-01-03T16:02:17.077Z",
-    "versionDate": "2018-01-03T16:02:17.077Z"
+    "versionDate": "2018-01-13T16:02:17.077Z"
   },
   "b-control-em": {
     "meta": "https://raw.githubusercontent.com/ioBroker/ioBroker.b-control-em/master/io-package.json",
@@ -102,6 +102,13 @@
     "type": "household",
     "published": "2016-07-24T22:08:47.215Z",
     "versionDate": "2017-11-16T01:18:08.412Z"
+  },
+  "bring": {
+    "meta": "https://raw.githubusercontent.com/foxriver76/ioBroker.bring/master/io-package.json",
+    "icon": "https://raw.githubusercontent.com/foxriver76/ioBroker.bring/master/admin/bring.png",
+    "version": "1.0.0",
+    "type": "household",
+    "published": "2019-02-12T20:10:09.422Z"
   },
   "broadlink2": {
     "meta": "https://raw.githubusercontent.com/frankjoke/ioBroker.broadlink2/master/io-package.json",
@@ -394,10 +401,9 @@
   "harmony": {
     "meta": "https://raw.githubusercontent.com/Pmant/ioBroker.harmony/master/io-package.json",
     "icon": "https://raw.githubusercontent.com/Pmant/ioBroker.harmony/master/admin/harmony.png",
-    "version": "1.1.5",
+    "version": "1.2.1",
     "type": "multimedia",
-    "published": "2015-08-18T08:32:32.461Z",
-    "versionDate": "2018-12-29T03:52:36.183Z"
+    "published": "2015-08-18T08:32:32.461Z"
   },
   "hid": {
     "meta": "https://raw.githubusercontent.com/soef/ioBroker.hid/master/io-package.json",
@@ -434,10 +440,10 @@
   "hmip": {
     "meta": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.hmip/master/io-package.json",
     "icon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.hmip/master/admin/homematic.png",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "type": "hardware",
     "published": "2019-01-23T19:53:36.140Z",
-    "versionDate": "2019-02-03T07:19:36.140Z"
+    "versionDate": "2019-02-27T07:19:36.140Z"
   },
   "homee": {
     "meta": "https://raw.githubusercontent.com/Apollon77/ioBroker.homee/master/io-package.json",
@@ -587,10 +593,10 @@
   "iogo": {
     "meta": "https://raw.githubusercontent.com/nisiode/ioBroker.iogo/master/io-package.json",
     "icon": "https://raw.githubusercontent.com/nisiode/ioBroker.iogo/master/admin/iogo.png",
-    "version": "0.2.6",
+    "version": "0.3.4",
     "type": "visualization",
     "published": "2018-09-10T19:15:03.742Z",
-    "versionDate": "2018-10-07T18:54:02.574Z"
+    "versionDate": "2019-02-15T21:50:28.234Z"
   },
   "iot": {
     "meta": "https://raw.githubusercontent.com/ioBroker/ioBroker.iot/master/io-package.json",
@@ -695,6 +701,14 @@
     "type": "garden",
     "published": "2017-07-22T11:45:31.427Z",
     "versionDate": "2018-08-09T18:25:54.887Z"
+  },
+  "lcn": {
+    "meta": "https://raw.githubusercontent.com/ioBroker/ioBroker.lcn/master/io-package.json",
+    "icon": "https://raw.githubusercontent.com/ioBroker/ioBroker.lcn/master/admin/lcn.png",
+    "type": "iot-systems",
+    "version": "0.3.1",
+    "published": "2018-11-05T23:29:40.991Z",
+    "versionDate": "2018-09-23T21:10:12.043Z"
   },
   "lgtv": {
     "meta": "https://raw.githubusercontent.com/SebastianSchultz/ioBroker.lgtv/master/io-package.json",
@@ -1033,8 +1047,8 @@
     "versionDate": "2018-08-03T07:35:05.003Z"
   },
   "opi": {
-    "meta": "https://raw.githubusercontent.com/PrinzEisenherz1/ioBroker.opi/master/io-package.json",
-    "icon": "https://raw.githubusercontent.com/PrinzEisenherz1/ioBroker.opi/master/admin/opi.png",
+    "meta": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.opi/master/io-package.json",
+    "icon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.opi/master/admin/opi.png",
     "type": "hardware",
     "published": "2018-01-22T21:44:32.139Z",
     "version": "0.1.1",
@@ -1459,10 +1473,10 @@
   "tradfri": {
     "meta": "https://raw.githubusercontent.com/AlCalzone/ioBroker.tradfri/master/io-package.json",
     "icon": "https://raw.githubusercontent.com/AlCalzone/ioBroker.tradfri/master/admin/tradfri.png",
-    "version": "1.5.4",
+    "version": "2.1.0",
     "type": "lighting",
     "published": "2017-08-23T11:33:34.827Z",
-    "versionDate": "2018-05-14T14:24:24.327Z"
+    "versionDate": "2019-01-08T19:45:13.317Z"
   },
   "tuya": {
     "meta": "https://raw.githubusercontent.com/Apollon77/ioBroker.tuya/master/io-package.json",
